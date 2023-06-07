@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(hello C)
+project(universe C)
 
-add_executable(hello
-               main.c
-               helpers.h
-               helpers.c)
+add_executable(universe main.c
+                        helpers.h
+                        helpers.c)
